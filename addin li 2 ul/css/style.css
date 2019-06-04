@@ -1,0 +1,192 @@
+/* usable css styles------*/
+/* header color: background-color: #25b99a; */
+/* body background_color #edf0f1 */
+/* background-color: rgba(255, 255, 255, 0.2); */
+/* box-shadow: 0 1px 2px rgba(44, 62, 80, 0.10); */
+
+/* to do list input text */
+body{
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.wrap{
+    /* border: 1px solid black; */
+    width: 30%;
+    min-height: 600px;
+    margin: 40px;
+    padding-bottom: 15px;
+    background-color: #edf0f1;
+    /* background-color: hsl(195, 12%, 94%); */
+    box-shadow: 0 1px 2px rgba(44, 62, 80, 0.10);
+}
+
+/* .input-buttonDiv{
+    background-color: aquamarine;
+    border-radius: 5px 50px 50px 5px;
+} */
+
+.header{
+    background-color: #25b99a;
+    width: 94%;
+    height: 70px;
+    border-radius: 5px 5px 10px 10px;
+    z-index: 5;
+    box-shadow: 0 2px 4px rgba(44, 62, 80, 0.15);
+    padding: 15px;
+}
+
+/* div item container */
+.itemContainer{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(44, 62, 80, 0.10);
+    margin-bottom: 10px;
+    padding: 6px;
+    position: relative;
+    right: 20px;
+    align-items: center;
+}
+
+.input__text{ 
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    box-shadow: none;
+    text-indent: 18px;
+    /* padding: 0 60px 0 0; */
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* padding: 15px; */
+    /* border-radius: 10px; */
+    /* -webkit-border-radius: 5px; */
+    /* border-radius: 5px 50px 50px 5px; */
+    /* margin: 25px 0px 25px 25px; */
+    border: none;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 380px;
+    z-index: 2;
+    border-radius: 25px;
+    box-shadow: 0;
+    /* padding: 15px; */
+    background:#fff;
+    outline: none;
+    border:0 none;
+    cursor:pointer;
+    
+}
+.removeItem{
+    width: 65px;
+    padding: 8px;
+    margin: 10px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+}
+
+.editBtn{
+    width: 65px;
+    padding: 8px;
+    margin: 10px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+}
+
+.myParagraph{
+    float: left;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 0 100px 0 0;
+}
+
+.myListStyle{
+    list-style: none;
+}
+
+
+/* modal css styling */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal{
+    width: 500px;
+    /* background-color: brown; */
+    margin: auto;
+    position: relative;
+    bottom: 450px;
+    left: 250px;
+    background-color: #edf0f1;
+    border-radius: 10px;
+}
+
+.close-button{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+ .input-text{
+   width: 100%;
+}
+.clear{
+    clear: both;
+}
+.modal-input{
+    padding: 17px; 
+    width: 80%;
+    background-color: #fff;
+    display: block;
+    border-radius: 3px;
+    border: none; 
+    /* box-shadow: 2px 5px 3px grey; */
+    margin: 0 auto;
+}
+
+.modal-btn{
+    float: right;
+    margin-top: 50px;
+}
+
+.btn-style{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+    padding: 10px;
+    background:#fff; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.not-active{
+    display: none;
+}
+
+/* styling prototype for list */

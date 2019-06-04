@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="divWrap">Users:</div>
+    <ul id="ul_list">
+        <li id="list1">John</li>
+        <li id="list2">Pete</li>
+        <!-- <p>googl</p> -->
+    </ul>
+    
+
+    <script>
+                
+        // let body = document.body;
+        // let firstChild = body.firstElementChild;
+        // let nextChild = firstChild.nextElementSibling;
+        // let lastChild = nextChild.lastElementChild;
+        // console.log(lastChild);
+
+        const body = document.body;
+
+        const j = body.firstElementChild.nextElementSibling.lastElementChild;
+        const k = body.lastElementChild.previousElementSibling.lastElementChild;
+        const x = body.children[1].lastElementChild;
+        const y = body.children[1].children[1];
+        // console.log(j, k, x, y)
+
+        
+        console.log(k.nodeName.toLowerCase() === 'li');
+        console.log(k.id === 'list2', k.id);
+        
+        
+        
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>travel worthy</h1>
+    <div id="message">welcome to our site!</div>
+
+    <script>
+        let newMessage = 'sign up to receive our new message';
+        function changeMessage(){
+            let message = document.getElementById('message');
+            message.textContent = newMessage;
+            message.style.fontSize = '20px'
+        }
+        changeMessage();
+
+        function findArea(length, width){
+            let area = width * length;
+            return area;
+            
+        }
+        var a = findArea(12, 34);
+        var b = findArea(5, 4);
+
+        //console.log(a, b);
+
+        //fuctions that returns multiple values using arrays
+        function getSize(width, height, depth){
+            let area = width * height;
+            let volume = width * height * depth;
+            let sizes = area * volume;
+            return sizes;
+        }
+
+        let areaOne = getSize(2, 2, 2)[0];
+        let areaTwo = getSize(3, 3, 3)[1];
+
+        console.log(areaOne, areaTwo);
+
+        //types of functions, name function and anonymous function
+        //example of a name function is this:
+        function area(width, height){
+            return width * height;
+        }
+        var size = (2,2);
+
+        //example of expression function
+        var result = function area(width, height){
+            return width * height;
+        }
+        var size = (3, 4);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .paragraph{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="content">
+            <head>Hello this are my targeted element</head>
+            <p>elements tend to be more dynamic when you pick them with javascript</p>
+            <a href="#">guess what then</a>
+        </div>
+        <nav>
+            <p>my list of targeted html elements</p>
+            <ul>
+                <li>divisions</li>
+                <li>bodies</li>
+                <li>paragraph</li>
+                <li>heading</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="section">
+        <h3>how do you tend to target this elements?</h3>
+        <p>I may need to target them through either the parents, last child or first child</p>
+        <h3>what the will you do with this elements after targeting them.</h3>
+        <p>Atleast give them some functionalities</p>
+        <p>alriht time to start, so lets see how it goes.</p>
+    </div>
+    <script>
+        let body = document.body;
+        let paragraph = body.firstElementChild.firstElementChild.lastElementChild.previousElementSibling;
+        paragraph.classList.add('paragraph')
+        console.log(paragraph);
+        
+    </script>
+</body>
+</html>
